@@ -1,16 +1,51 @@
-html {
-  font-family: sans-serif;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
+body,html{
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  background-color: #f4f5f9;
 }
-body{ 
-    margin-top:40px; 
+
+.box{
+  background-color: #FFF;
+  border: 2px solid #ebecf0;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  -moz-border-top-left-radius: 3px;
+  -moz-border-top-right-radius: 3px;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  padding: 35px;
 }
-.cajacentral{
-    border-radius: 6px;
-    margin: 20px auto;
-    width: 620px;
-    
+
+.box-bottom{
+  background-color: #596273;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  -moz-border-bottom-left-radius: 3px;
+  -moz-border-bottom-right-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  height: 60px;
+  padding-right: 0px;
+  color: #FFF;
+}
+
+.box-bottom h3{
+  width: auto;
+  display: inline-block;
+}
+
+.box-button{
+  background-color: #6dd8aa;
+  color: #FFF;
+  height: 60px;
+  width: 90px;
+  border: 0px;
+  outline: 0px;
+  border-bottom-right-radius: 3px;
+  -moz-border-bottom-right-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
 }
 
 .botones{
@@ -18,80 +53,7 @@ body{
     float: right;
 }
 
-
-.stepwizard-row {
-    display: table-row;
+.btn-gris{
+ background-color: #EFEFEF;
+ color: #8f8f8f;
 }
-.stepwizard {
-    display: table;
-    width: 50%;
-    position: relative;
-}
-
-.stepwizard-row:before {
-    top: 14px;
-    bottom: 0;
-    position: absolute;
-    content: " ";
-    width: 100%;
-    height: 1px;
-    background-color: #ccc;
-    z-order: 0;
-}
-.stepwizard-step {
-    display: table-cell;
-    text-align: center;
-    position: relative;
-}
-.btn-circle {
-    width: 30px;
-    height: 30px;
-    text-align: center;
-    padding: 6px 0;
-    font-size: 12px;
-    line-height: 1.428571429;
-    border-radius: 15px;
-}
-
-.cajados{
-    border-radius: 6px;
-    margin: 0px auto;
-    width: 620px;
-    background-color: #747474;
-    padding: 25px;
-
-
-}
-
-.botonfinal{
-
-    float: right;
-
-}
-
-.peque{
-    height: 12px;
-    width: 12px;
-
-}
-
-.linea{
-    border: 1px;
-    border-color: black;
-    height: 1px;
-}
-
-.circulo1{
-
-     width: 15px;
-     height: 15px;
-     -moz-border-radius: 50%;
-     -webkit-border-radius: 50%;
-     border-radius: 50%;
-     background: black;
-     float: left;
-     margin-right: 12px;
- 
-  
-}
-
