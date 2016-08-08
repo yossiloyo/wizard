@@ -8,7 +8,7 @@ body,html{
 
 .box{
   background-color: #FFF;
-  border: 2px #ebecf0;
+  border: 2px solid #ebecf0;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
   -moz-border-top-left-radius: 3px;
