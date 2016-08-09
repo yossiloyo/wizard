@@ -9,6 +9,7 @@
 
 
 <div class="container-fluid">
+
     <div class="row">
           <div class="col-md-12">
           Aqui van los circulos
@@ -17,25 +18,27 @@
 
     <div class="row">
         <div class="col-md-6 col-md-offset-3 box">
-          <h2 class="text-center">Post a event</h2>
+        <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h3 class="text-center">Post an event</h2>
           <h5 class="text-center">The standart chunk of Lorem Ipsum  used since the 1500s is reproduced.</h4>
 
           <form>
+
         <div class="form-group">
-        <input type="text" class="form-control" id="" placeholder="Add names or emails">
+        <input type="text" class="form-control input-lg" id="" placeholder="Add names or emails" >
         </div>
 
          <div class="form-group">
-           <textarea class="form-control" rows="3"></textarea>
+           <textarea class="form-control input-lg" rows="4"></textarea>
          </div>
-  
-        <div class="btn-group dropup">
-            <button type="button" class="btn btn-default">Schedule</button>
-            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <span class="caret"></span>
-            </div>
+        <div class="col-md-2 dropup">
+         <button class="btn btn-default schedule dropdown-toggle glyphicon glyphicon-calendar" type="button">Schedule<span class="caret caret-alineado"></span>
+        </button>
+        </div>
+       
+        
          <div class="botones">
-                <button type="submit" class="btn btn-info"><strong>Send</strong></button>
+                <button type="submit" class="btn btn-info btn-azul"><strong>Send</strong></button>
                 <button type="submit" class="btn btn-gris"><strong>Get Link</strong></button>
             </div>
             </form>
