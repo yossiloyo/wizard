@@ -8,24 +8,24 @@ body,html{
 
 .box{
   background-color: #FFF;
-  border: 2px solid #ebecf0;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
-  -moz-border-top-left-radius: 3px;
-  -moz-border-top-right-radius: 3px;
-  -webkit-border-top-left-radius: 3px;
-  -webkit-border-top-right-radius: 3px;
-  padding: 35px;
+  border: 1px solid #ebecf0;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  -moz-border-top-left-radius: 5px;
+  -moz-border-top-right-radius: 5px;
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  padding: 15px;
 }
 
 .box-bottom{
   background-color: #596273;
-  border-bottom-left-radius: 3px;
-  border-bottom-right-radius: 3px;
-  -moz-border-bottom-left-radius: 3px;
-  -moz-border-bottom-right-radius: 3px;
-  -webkit-border-bottom-left-radius: 3px;
-  -webkit-border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  -moz-border-bottom-left-radius: 5px;
+  -moz-border-bottom-right-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
   height: 60px;
   padding-right: 0px;
   color: #FFF;
@@ -49,11 +49,33 @@ body,html{
 }
 
 .botones{
-
-    float: right;
+float: right; 
 }
 
 .btn-gris{
  background-color: #EFEFEF;
  color: #8f8f8f;
+ width: 130px;
+ height: 40px;
+}
+
+.btn-azul{
+ 
+ width: 130px;
+ height: 40px;
+ margin-right: 20px;
+}
+
+.schedule{
+  border: 0px;
+  color: #8f8f8f;
+
+}
+.form-group{
+  margin-top: 15px;
+}
+
+.caret-alineado{
+  margin-bottom: 8px;
+  
 }
