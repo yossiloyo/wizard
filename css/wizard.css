@@ -49,7 +49,7 @@ body,html{
 }
 
 .botones{
-float: right; 
+float: right;
 }
 
 .btn-gris{
@@ -60,7 +60,7 @@ float: right;
 }
 
 .btn-azul{
- 
+
  width: 130px;
  height: 40px;
  margin-right: 20px;
@@ -77,5 +77,121 @@ float: right;
 
 .caret-alineado{
   margin-bottom: 8px;
-  
+}
+
+.steps{
+  list-style: none;
+  padding: 0px;
+  margin-top: 15px;
+}
+
+.steps > li{
+  text-align: left;
+  display:inline-block;
+  position: relative;
+  width: 33%;
+}
+
+.steps > li > p{
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.steps li:last-child {
+  width: 33% !important;
+}
+
+.steps li:last-child:after {
+  width: 0% !important;
+}
+
+.steps li:after{
+  width: 98%;
+  position: absolute;
+  content: "";
+  top: 58px;
+  left: 50%;
+  height: 3px;
+}
+
+.steps li.green > div {
+  background-color: #6dd8aa !important;
+  border: 3px solid #6dd8aa !important;
+}
+
+.steps li.green > div > i {
+  margin-top: 4px;
+}
+
+.steps li.green > p {
+  color: #6dd8aa !important;
+}
+
+.steps li.green:after {
+    background: #6dd8aa;
+    background: -webkit-linear-gradient(left, #6dd8aa, #31b0d5);
+    background: -o-linear-gradient(right, #6dd8aa, #31b0d5);
+    background: -moz-linear-gradient(right, #6dd8aa, #31b0d5);
+    background: linear-gradient(to right, #6dd8aa , #31b0d5);
+}
+
+.steps li.blue > div {
+  border: 3px solid #31b0d5 !important;
+}
+
+.steps li.blue > div > div {
+  background-color: #31b0d5;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  -moz-boder-radius: 50%;
+  -webkit-border-radius: 50%;
+  margin-top: 3px;
+  display: inline-block;
+}
+
+.steps li.blue > p {
+  color: #31b0d5 !important;
+}
+
+.steps li.blue:after {
+  background: #31b0d5;
+  background: -webkit-linear-gradient(left, #31b0d5, #a4aeb8);
+  background: -o-linear-gradient(right, #31b0d5, #a4aeb8);
+  background: -moz-linear-gradient(right, #31b0d5, #a4aeb8);
+  background: linear-gradient(to right, #31b0d5, #a4aeb8);
+  left: 53%;
+  width: 95%;
+}
+
+.steps li.gray > div {
+  background-color: #transparent !important;
+  border: 3px solid #a4aeb8 !important;
+}
+
+.steps li.gray > p {
+  color: #a4aeb8 !important;
+}
+
+.steps li.gray:after {
+    border-bottom: 3px solid #a4aeb8;
+}
+
+.steps > li > div{
+  border: 3px solid #FFFFFF;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #FFF;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
 }
