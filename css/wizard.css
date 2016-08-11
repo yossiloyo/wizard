@@ -16,6 +16,33 @@ body,html{
   -webkit-border-top-left-radius: 5px;
   -webkit-border-top-right-radius: 5px;
   padding: 15px;
+  position: relative;
+  margin-top: 20px;
+}
+
+
+.box:after, .box:before {
+  bottom: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.box:after {
+  border-color: rgba(136, 183, 213, 0);
+  border-bottom-color: #FFF;
+  border-width: 15px;
+  margin-left: -18px;
+}
+.box:before {
+  border-color: rgba(194, 225, 245, 0);
+  border-bottom-color: #ebecf0;
+  border-width: 17px;
+  margin-left: -20px;
 }
 
 .box-bottom{
@@ -186,6 +213,96 @@ float: right;
   -webkit-border-radius: 50%;
   width: 30px;
   height: 30px;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #FFF;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+
+/* Inferior Step */
+
+.steps-inferior{
+  list-style: none;
+  padding: 0px;
+  margin-top: 15px;
+  display: inline-block;
+}
+
+.steps-inferior > li{
+  text-align: left;
+  display:inline-block;
+  position: relative;
+  width: 40px;
+}
+
+
+.steps-inferior li:last-child:after {
+  width: 0% !important;
+} 
+
+.steps-inferior li:after{
+  width: 98%;
+  position: absolute;
+  content: "";
+  top: 3.5px;
+  left: 50%;
+  height: 2px;
+}
+
+.steps-inferior li.gris-izquierdo > div {
+  background-color: #8395ad !important;
+  border: 3px solid #8395ad !important; */
+}
+
+.steps-inferior li.gris-izquierdo > div > i {
+    font-size: 4px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: #596273;
+
+}
+
+.steps-inferior li.gris-izquierdo:after {
+    background: #4a5364;
+    
+}
+
+
+.steps-inferior li.blanco > div {
+ 
+  background: #fff;
+
+}
+
+
+/* Linea peq de abajo */
+.steps-inferior li.blanco:after {
+  background: #4a5364;
+  left: 53%;
+  width: 95%; 
+}
+
+.steps-inferior li.gris-derecho > div {
+  background-color: #596273 !important;
+  border: 2px solid #808b9d !important;
+}
+
+
+.steps-inferior li.gris-derecho:after {
+    border-bottom: 3px solid #a4aeb8;
+}
+
+.steps-inferior > li > div{
+  border: 3px solid #FFFFFF;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  width: 10px;
+  height: 10px;
   margin: 0 auto;
   font-size: 16px;
   color: #FFF;
